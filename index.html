@@ -17,7 +17,9 @@
 					<li> <a href="contacts.html">Контакты</a>	</li>
 				</ul>
 				<ul class="user-navigation">
-					<li class="user-bay">Корзина	</li>
+					<li class="user-bay">
+						<a class="user-bay" href="login.html">Корзина</a>
+					</li>
 				</ul>
 			</nav> 
 		
@@ -89,7 +91,7 @@
 							<li class="about-us-item">Соблюдение сроков</li>
 							<li class="about-us-item">Минимальная предоплата</li>
 					</ul>
-					<h3>Наши работы</h3>
+					<h3 class=visually-hidden>Наши работы</h3>
 					<ul class="about-us-project">
 						<li><a class="button" href="https://https://htmlacademy.ru/intensive/htmlcss"><img src=img/logo-1.png alt="HTML Academy"></a></li>
 						<li><a class="button" href="https://barbershopborodinski.ru"><img src=img/logo-2.png alt="Barbershop Borodinski"></a></li>
@@ -107,8 +109,9 @@
       <a class="button contacts-button" href="contacts.html">Напишите нам</a>
       </p>
       <img src="img/maps-contact.png" alt="Карта города">
-      <img src="img/map-marker.png" alt="Логотип-указатель Нёрдс">
+      <img src="img/map-marker.png" alt="Адрес NЁRDS DESIGN STUDIO 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       <div class="footer-social">
+      	<h3 class="visually-hidden"> Ссылки на нас в соцсетях </h3> 
         <ul>
           <li><a class="social-button" href="#"><img src=img/vk.png alt="Вконтакте"></a></li>
           <li><a class="social-button" href="#"><img src=img/fb.png alt="Фейсбук"></a></li>
@@ -121,11 +124,21 @@
 
 		<section class="feedback">
       <h2>Напишите нам</h2>
-      <p>Ваше имя</p>
-      <p>Ваш e-mail</p>
-      <p>Текст письма</p>
-      <!-- Здесь будет форма -->
-      <a class="button feedback-button" href="feedback.html">Отправить</a>
-     </section>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+      	<p>
+	      	<label for="feedback-name">Ваше имя</label>
+	      	<input type="text" id="feedback-name" name="name" placeholder="Представьтесь, пожалуйста">
+	      </p>	
+      	<p>
+      		<label for="feedback-email">Ваш e-mail</label>
+	      	<input type="email" id="feedback-email" name="email" placeholder="Для отправки ответа">
+	      </p>
+      	<p>
+      		<label for="feedback-text">Текст письма</label>
+	      	<input type="text" id="feedback-text" name="text" placeholder="В свободной форме">
+	      </p>
+	     </form>
+      <button class="button" type="submit"> Отправить</button>
+    </section>
   </body>
 </html>
