@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
 		<header class="main-header">
@@ -25,19 +28,19 @@
 		
 			<section class="main-feature">
 			<h2 class="visually-hidden">Наши преимущества</h2>
-			<div class="main-feature-1">
+			<div class="main-feature">
 				<h2> Долго, дорого, скурпулезно</h2>
 				<p> Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
 				<a href="#"> <img src="img/feature1.png" alt="Фишка1"></a>
 				<a class="button" href="more.html">Узнать больше</a>
 			</div>
-			<div class="main-feature-2">
+			<div class="main-feature">
 				<h2>Любим математику как никто другой</h2>
 				<p>Никакого креатива, только математичесикие формулы для расчета идеальных пропорций</p>
 				<a href="#"> <img src="img/feature2.png" alt="Фишка2"> </a> 
 				<a class="button" href="more.html">Узнать больше</a>
 			</div>
-			<div class="main-feature-3">
+			<div class="main-feature">
 				<h2>Только ночь, только хардкор</h2>
 				<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
 				<a href="#"> <img src="img/feature3.png" alt="Фишка3"></a>
@@ -65,7 +68,7 @@
 	        		<img src=img/illustration-3.png alt="Иллюстрация-3">
 	        		<h3> Презентации</h3>
 	        		<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-	        		<a class="button" href="order.html">Заказать</a>
+	        		<a class="button illustration-3" href="order.html">Заказать</a>
 	        	</li>
       	  </ul>
 				</section>
@@ -81,7 +84,7 @@
 					</ul>
 					<img src="img/logo-party.png" alt="Праздничный логотип Нёрдс">
 					<h3>С 2004 года любим точность во всем:</h3>
-					<ul class="about-us-list">
+					<ul class="about-us-level">
 							<li class="about-us-item">146%</li>
 							<li class="about-us-item">100%</li>
 							<li class="about-us-item">50%</li>
@@ -93,16 +96,16 @@
 					</ul>
 					<h3 class=visually-hidden>Наши работы</h3>
 					<ul class="about-us-project">
-						<li><a class="button" href="https://https://htmlacademy.ru/intensive/htmlcss"><img src=img/logo-1.png alt="HTML Academy"></a></li>
-						<li><a class="button" href="https://barbershopborodinski.ru"><img src=img/logo-2.png alt="Barbershop Borodinski"></a></li>
-						<li><a class="button" href="https://pink.ru"><img src=img/logo-3.png alt="Pink App"></a></li>
-						<li><a class="button" href="https://mishka.ru"><img src=img/logo-4.png alt="Mishka"></a></li>
+						<li><a href="https://https://htmlacademy.ru/intensive/htmlcss"><img src=img/logo-1.png alt="HTML Academy"></a></li>
+						<li><a href="https://barbershopborodinski.ru"><img src=img/logo-2.png alt="Barbershop Borodinski"></a></li>
+						<li><a href="https://pink.ru"><img src=img/logo-3.png alt="Pink App"></a></li>
+						<li><a href="https://mishka.ru"><img src=img/logo-4.png alt="Mishka"></a></li>
 					</ul>					
 				</section>
 		</main>
 		<footer class="main-footer">
-			<p class="footer-contacts">
-        NЁRDS DESIGN STUDIO<br>
+			<p class="name"> NЁRDS DESIGN STUDIO</p>
+      <p class="footer-contacts">
         191186, Санкт-Петербург,<br>
         ул. Б. Конюшенная, д. 19/8<br>
         тел.: +7 (812) 275-75-75
@@ -112,12 +115,12 @@
       <img src="img/map-marker.png" alt="Адрес NЁRDS DESIGN STUDIO 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       <div class="footer-social">
       	<h3 class="visually-hidden"> Ссылки на нас в соцсетях </h3> 
-        <ul>
+        <ul class="list-social-button">
           <li><a class="social-button" href="#"><img src=img/vk-icon.svg alt="Вконтакте"></a></li>
           <li><a class="social-button" href="#"><img src=img/fb-icon.svg alt="Фейсбук"></a></li>
           <li><a class="social-button" href="#"><img src=img/insta-icon.svg alt="Инстаграм"></a></li>
         </ul>
-        <b>Давайте дружить, это выгодно!</b>
+        <h3>Давайте дружить, это выгодно!</h3>
         <p>Скидка 10% для друзей из социальных сетей</p>
       </div>
 		</footer>
@@ -126,19 +129,20 @@
       <h2>Напишите нам</h2>
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
       	<p>
-	      	<label for="feedback-name">Ваше имя</label>
+	      	<label for="feedback-name">Ваше имя:</label>
 	      	<input type="text" id="feedback-name" name="name" placeholder="Представьтесь, пожалуйста">
 	      </p>	
       	<p>
-      		<label for="feedback-email">Ваш e-mail</label>
+      		<label for="feedback-email">Ваш e-mail:</label>
 	      	<input type="email" id="feedback-email" name="email" placeholder="Для отправки ответа">
 	      </p>
       	<p>
-      		<label for="feedback-text">Текст письма</label>
+      		<label for="feedback-text">Текст письма:</label>
 	      	<input type="text" id="feedback-text" name="text" placeholder="В свободной форме">
 	      </p>
 	     </form>
       <button class="button" type="submit"> Отправить</button>
+      <button class="feedback-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>
