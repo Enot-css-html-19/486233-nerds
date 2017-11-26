@@ -395,4 +395,284 @@ legend {
 }
 
 
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 2476px;
+}
+
+/*body {
+  /* Временно для сетки */
+/*  background-image: url('img/nerds-index.jpg');
+  background-size: 1440px auto;
+  background-repeat: no-repeat;
+}*/
+
+/*.inner-page {
+  /* Временно для сетки */
+/*  background-image: url('img/nerds-catalog.jpg');
+  background-size: 1400px auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}*/
+
+
+.main-header {
+ 
+  /* Временно для сетки */
+  min-height: 90px;
+  background-color: transparent;
+}
+
+.inner-page .main-header {
+  margin-bottom: 50px;
+  
+  background-color: #eeeeee;
+
+  /* Временно для сетки */
+  min-height: 345px;
+  background-color: transparent;
+}
+.main-navigation {
+ background-color: transparent;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around; 	
+ padding-top: 35px;
+ margin-bottom: 60px;
+ width: 100%;
+
+ /* Временно для сетки */
+ min-height: 90px;
+
+}
+
+.main-header-logo {
+	margin:0;
+  width: 250px;
+   
+}
+
+.site-navigation {
+	width: 650px;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  
+}
+
+.user-navigation {
+	width: 300px;
+  margin:0;
+  padding: 0;
+  
+  list-style: none;
+  
+}
+
+.container-feature {
+	width: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #eeeeee;
+	padding-bottom: 80px;
+
+	list-style: none;
+
+ /* Временно для сетки */	
+	min-height: 417px;
+
+}
+
+.main-feature {
+	width: 420px;
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.container-feature a {
+	width: 780px;
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-title {
+	width: auto;
+	margin-bottom: 120px;
+	background-color: #eeeeee;
+
+	/* Временно для сетки */
+  min-height: 50px;
+  background-color: transparent;
+
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0;
+
+  list-style: none;
+}
+
+.catalog-list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+
+  
+
+  list-style: none;
+
+  /* Временно для сетки */
+  min-height: 360px;
+}
+
+.catalog-item {
+	width: 360px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+ 	list-style: none;
+	/* Временно для сетки */
+  min-height: 615px;
+}
+
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.pagination-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  /* Временно для сетки */
+  min-height: 55px;
+}
+.about-us {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+ 	
+ 	list-style: none;
+}
+
+
+.about-us-text {
+	width: 720px;
+
+	list-style: none;
+ 	/* Временно для сетки */
+ 	min-height: 500px;
+}
+
+.about-us-numbers {
+	width: 480px;
+
+	list-style: none;
+ 	/* Временно для сетки */
+ 	min-height: 500px;
+}
+.project {
+	width: 1300px;
+	margin-bottom: 50px;
+	
+	/* Временно для сетки */
+	min-height: 200px;
+
+}
+
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 320px;
+
+  /* Временно для сетки */
+  min-height: 687px;
+}
+
+.catalog {
+  width: 760px;
+  margin-right: 40px;
+
+  /* Временно для сетки */
+  min-height: 2000px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.catalog-item {
+  width: 360px;
+  margin-bottom: 30px;
+
+  /* Временно для сетки */
+  min-height: 610px;
+}
+
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.inner-page .main-footer {
+	margin-top: 20px;
+}
+
+.maps {
+	display: flex;
+	width: auto;
+
+
+	/* Временно для сетки */
+	min-height: 400px;
+}
+.maps-contacts {
+	width: 330px;
+	margin: 80px 130px; 
+	
+	/* Временно для сетки */
+	min-height: 300px;
+}
+.friends {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+
+	/* Временно для сетки */
+	min-height: 200px;
+}
+
+.footer-social {
+	width: 300px;
+	margin-left: 130px;
+
+	/* Временно для сетки */
+	min-height: 40px;
+}
+
+.best-friends {
+	width: 600px;
+	margin-right: 400px;
+	/* Временно для сетки */
+	min-height: 40px;
+}
+
 
