@@ -73,7 +73,7 @@ input[type="radio"].visually-hidden {
 .main-header {
 	position: relative;
 
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #eeeeee;
 }
@@ -202,6 +202,12 @@ input[type="radio"].visually-hidden {
   opacity: 0.3;
 }
 
+.all-background {
+	width: 100%;
+
+	background-color: #eeeeee;
+}
+
 .feature {
 	position: relative;
 
@@ -210,8 +216,6 @@ input[type="radio"].visually-hidden {
 	margin: 0 auto;
 	padding: 0 140px;
 	margin-bottom: 82px;
-
-	background-color: #eeeeee;
 }
 
 .feature-controls {
@@ -923,10 +927,28 @@ legend {
   opacity: 0.4;
 }
 
+.filter-option-radio:checked + label::before {
+  content: "";
+
+  position: absolute;
+  top: -2px;
+  left: -39px;
+
+  width: 25px;
+  height: 25px;
+
+  background-image: url("img/radio-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  color: #000000;
+  opacity: 0.4;
+}
+
 .filter-option-checkbox + label::before {
   content: "";
   position: absolute;
-  left: -39px;
+  left: -37px;
   top: -2px;
 
   width: 24px;
@@ -945,10 +967,28 @@ legend {
 
   position: absolute;
   top: -2px;
-  left: -39px;
+  left: -37px;
 
-  width: 24px;
-  height: 24px;
+  width: 27px;
+  height: 23px;
+  
+  background-image: url("img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  color: #000000;
+  opacity: 0.4;
+}
+
+.filter-option-checkbox:checked + label::before {
+  content: "";
+
+  position: absolute;
+  top: -2px;
+  left: -37px;
+
+  width: 27px;
+  height: 23px;
   
   background-image: url("img/checkbox-on.svg");
   background-repeat: no-repeat;
@@ -1333,9 +1373,11 @@ legend {
 	justify-content: space-between;
 
 	width: 1440px;
+	height: 420px;
+	
 	margin: 0 auto;
 	padding: 0 140px;
-	margin-bottom: 72px;
+	margin-bottom: 65px;
 
 	background-image: url("img/maps-contact.png");
 	background-repeat: no-repeat;
@@ -1344,11 +1386,18 @@ legend {
 	box-sizing: border-box;
 
   list-style: none;
+
+  position: relative;
 }
 
 .maps-contacts {
 	width: 270px;
 	height: 280px;
+
+	position: absolute;
+	top: 0;
+	
+
 
 	padding: 30px 0 0 50px;
 	margin-top: 55px;
@@ -1387,6 +1436,10 @@ legend {
 }
 
 .maps-logo {
+	position: absolute;
+	top: -1px;
+	right: 140px;
+
 	margin: 89px 250px auto 0;
 	padding: 0;
 }
