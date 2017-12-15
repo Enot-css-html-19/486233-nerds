@@ -194,7 +194,7 @@ input[type="radio"].visually-hidden {
 	width: 16px;
 	height: 18px;
 
-	background-image: url("img/cart-icon.png");
+	background-image: url("../img/cart-icon.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	
@@ -898,7 +898,7 @@ legend {
 	width: 25px;
 	height: 25px;
 	
-	background-image: url("img/radio-off.svg");
+	background-image: url("../img/radio-off.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -916,7 +916,7 @@ legend {
 	width: 25px;
 	height: 25px;
 
-	background-image: url("img/radio-on.svg");
+	background-image: url("../img/radio-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -934,7 +934,7 @@ legend {
 	width: 25px;
 	height: 25px;
 
-	background-image: url("img/radio-on.svg");
+	background-image: url("../img/radio-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -951,7 +951,7 @@ legend {
 	width: 24px;
 	height: 24px;
 
-	background-image: url("img/checkbox-off.svg");
+	background-image: url("../img/checkbox-off.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -969,7 +969,7 @@ legend {
 	width: 27px;
 	height: 23px;
 	
-	background-image: url("img/checkbox-on.svg");
+	background-image: url("../img/checkbox-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -987,7 +987,7 @@ legend {
 	width: 27px;
 	height: 23px;
 	
-	background-image: url("img/checkbox-on.svg");
+	background-image: url("../img/checkbox-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -1127,7 +1127,7 @@ legend {
 	width: 10px;
 	height: 10px;
 
-	background-image: url(img/icon-down-dir.svg);
+	background-image: url(../img/icon-down-dir.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
@@ -1144,7 +1144,7 @@ legend {
 	width: 10px;
 	height: 10px;
 
-	background-image: url(img/icon-up-dir.svg);
+	background-image: url(../img/icon-up-dir.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 
