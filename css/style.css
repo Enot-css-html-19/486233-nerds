@@ -272,19 +272,19 @@ input[type="radio"].visually-hidden {
 }
 
 .main-feature:nth-child(1) {
-	background-image: url("img/feature1.png");
+	background-image: url("../img/feature1.png");
 	background-repeat: no-repeat;
 	background-position: 93% 10px;
 }
 
 .main-feature:nth-child(2) {
-	background-image: url("img/feature2.png");
+	background-image: url("../img/feature2.png");
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 }
 
 .main-feature:nth-child(3) {
-	background-image: url("img/feature3.png");
+	background-image: url("../img/feature3.png");
 	background-repeat: no-repeat;
 	background-position: 100% 20px;
 }
@@ -1375,7 +1375,7 @@ legend {
 	padding: 0 140px;
 	margin-bottom: 65px;
 
-	background-image: url("img/maps-contact.png");
+	background-image: url("../img/maps-contact.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 
